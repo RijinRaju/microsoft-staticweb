@@ -1,0 +1,694 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+overflow-x: hidden;
+    background-color: #fff;
+}
+.body{
+    height: 170rem;
+}
+#logo{
+    position: relative;
+    height: 53px;
+    background-color:#ffffff;
+    /* background-color: rgb(159, 163, 175); */
+    }
+#mi-logo{
+    position: relative;
+    margin-left: 57px;
+    margin-top: -25px;
+    width:145px;
+    height: 100px;
+}
+.topmenu{
+    position: relative;
+    width: 20rem;
+    margin-left: 210px;
+    margin-top:-38px;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 19.5px;
+    word-spacing: 0px;
+    
+}
+#menu1:hover{
+    cursor: pointer;
+    text-decoration: 2px underline;
+
+}
+#menu2:hover{
+    cursor: pointer;
+    text-decoration: 2px underline;
+
+}
+#menu3:hover{
+    cursor: pointer;
+    text-decoration: 2px underline;
+
+}
+#menu4:hover{
+    cursor: pointer;
+    text-decoration: 2px underline;
+
+}
+#menu5:hover{
+    cursor: pointer;
+    text-decoration: 2px underline;
+
+}
+#menu6:hover{
+    cursor: pointer;
+    text-decoration: 2px underline;
+
+}
+.topmenu2{
+    position: relative;
+    margin-left: 65rem;
+    margin-top: -23px;
+    font-size: 20px;
+    text-decoration: none solid rgb(38, 38, 38);
+    word-spacing: 0px;
+    font-family:  "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.topmenu2:hover{
+    cursor: pointer;
+}
+
+#menu1{
+    font-weight: 300;
+}
+#menu2{
+font-weight: 300;
+}
+#menu3{
+font-weight: 300;
+}
+#menu4{
+font-weight: 300;
+}
+#menu5{
+font-weight: 300;
+}
+#menu6{
+font-weight: 300;
+}
+/* body styling  */
+.cardMain{
+bottom:75px;
+height: 580px;
+color: #0f0f0f;
+position: relative;
+z-index: 999;
+margin-top: 80px;
+background-image: url(./Assests/Highlight-Hero-M365-Screenplates-Update-Excel_VP3-1083x600\(1\).jpg);
+background-size: 50% 577px;
+background-position: right;
+background-repeat: no-repeat;
+}
+.main-discription{
+    height: 578px;
+    width: 50%;
+    background-color: #f2f2f2;
+    
+}
+.main-dis{
+  
+    position: relative;
+    top: 190px;
+    left: 120px;
+}
+#disc-head1{
+  font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 37px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#disc1{
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+#disc1-btn{
+    background-color: #0067b8;
+    border: transparent;
+    height: 40px;
+    width: 170px;
+    position: relative;
+    top: 10px;
+    border-radius: 3px;
+    color: #ffffff;
+}
+#disc1-btn:hover{
+    background-color: #035fa7;
+    cursor: pointer;
+}
+#disc1-one{
+    position: relative;
+    left: 200px;
+    bottom: 20px;
+    width: 110px;
+     font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #0067b8;
+}
+#disc1-one:hover{
+    cursor: pointer;
+    color: #0067b8;
+    /* border-bottom: 2px solid #0067b8; */
+    text-decoration: underline;
+}
+.win-opt{
+    /* background-color: aqua; */
+    height: 140px;
+}
+.wind-logo1{
+    position: relative;
+    left: 400px;
+}
+#wind-logo1-txt{
+    margin-left: -75px;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #0067b8;
+    text-decoration: underline;
+
+}
+.wind-logo1:hover{
+cursor: pointer;
+}
+.wind-logo2{
+    position: relative;
+    left: 640px;
+    bottom: 65px;
+}
+#wind-logo2-txt{
+    margin-left: -75px;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #0067b8;
+    text-decoration: underline;
+
+}
+.wind-logo2:hover{
+cursor: pointer;
+}
+.wind-logo3{
+    position: relative;
+    left: 810px;
+    bottom: 128px;
+}
+#wind-logo3-txt{
+    margin-left: -26px;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #0067b8;
+    text-decoration: underline;
+
+}
+.wind-logo3:hover{
+cursor: pointer;
+}
+.wind-logo4{
+    position: relative;
+    left: 980px;
+    bottom: 194px;
+}
+#wind-logo4-txt{
+    margin-left: -26px;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #0067b8;
+    text-decoration: underline;
+
+}
+.wind-logo4:hover{
+cursor: pointer;
+}
+/* card1............ */
+.cards-row1-col1{
+   
+    position: relative;
+    left: 60px;
+    width: 290px;
+    height: 450px;
+}
+#r1-c1-head{
+    margin-top: 15px;
+    font-family:  "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+}
+#r1-c1-desc{
+ font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 25px;
+ 
+}
+#join-r1-c1{
+    margin-top: 30px;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 16px;
+    font-weight: 500;
+    color: #0067b8;
+}
+#join-r1-c1:hover{
+    cursor: pointer;
+    color: #0067b8;
+    text-decoration: underline;
+}
+/* card2.......... */
+.cards-row1-col2{
+   
+    position: relative;
+    left: 370px;
+    bottom: 449px;
+    width: 290px;
+    height: 450px;
+}
+#r1-c2-head{
+    margin-top: 15px;
+    font-family:  "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+}
+#r1-c2-desc{
+ font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 25px;
+ 
+}
+#shop-r1-c2{
+    margin-top: 30px;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 16px;
+    font-weight: 500;
+    color: #0067b8;
+}
+#shop-r1-c2:hover{
+    cursor: pointer;
+    color: #0067b8;
+    text-decoration: underline;
+}
+/* card3............ */
+.cards-row1-col3{
+   
+    position: relative;
+    left: 679px;
+    bottom: 899px;
+    width: 290px;
+    height: 450px;
+}
+#r1-c3-head{
+    margin-top: 15px;
+    font-family:  "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+}
+#r1-c3-desc{
+ font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 25px;
+ 
+}
+#learn-r1-c3{
+    margin-top: 30px;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 16px;
+    font-weight: 500;
+    color: #0067b8;
+}
+#learn-r1-c3:hover{
+    cursor: pointer;
+    color: #0067b8;
+    text-decoration: underline;
+}
+/* card4........... */
+.cards-row1-col4{
+   
+    position: relative;
+    left: 990px;
+    bottom: 1349px;
+    width: 290px;
+    height: 450px;
+}
+#r1-c4-head{
+    margin-top: 15px;
+    font-family:  "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+}
+#r1-c4-desc{
+ font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 25px;
+ 
+}
+#learn-r1-c4{
+    margin-top: 30px;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 16px;
+    font-weight: 500;
+    color: #0067b8;
+}
+#learn-r1-c4:hover{
+    cursor: pointer;
+    color: #0067b8;
+    text-decoration: underline;
+}
+.edge-card{
+    width: 1220px;
+    height: 600px;
+    background-image: url(./Assests/edge-1260x600.jpg);
+    background-color: #0067b8;
+    background-repeat: no-repeat;
+    background-size: 1250px 600px;
+    position: relative;
+    left: 70px;
+    bottom: 95rem;
+    
+}
+.edge-sub-card{
+     
+    width: 400px;
+    height: 280px;
+    background-color: #ffff;
+    border-radius: 2px;
+    position: relative;
+    left: 120px;
+    z-index: 999;
+    bottom: 1075px;
+
+}
+#edge-sub-head{
+    position: relative;
+    top: 35px;
+    left: 45px;
+    margin-bottom: 15px;
+font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 30px;
+font-weight: 500;
+}
+#edge-sub-desc{
+position: relative;
+top: 35px;
+left: 45px;
+margin-bottom: 15px;
+font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 16px;
+font-weight: 400; 
+}
+#edge-sub-btn{
+     position: relative;
+    top: 35px;
+    left: 45px;
+    height: 40px;
+    width: 140px;
+    background-color:#0067b8;
+    color: #fff;
+    border: transparent;
+    border-radius: 2px;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 16px;
+font-weight: 500; 
+}
+#edge-sub-btn:hover{
+    cursor: pointer;
+    background-color:#035fa7;
+}
+.win-cards-row2{
+    /* background-color: #0067b8; */
+    position: relative;
+    z-index: 999;
+height: 500px;
+bottom: 87rem;
+left: 70px;
+margin-right: 70px;
+}
+#row2-head{
+position: relative;
+left: 0px;
+margin-bottom: 20px;
+font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 30px;
+font-weight: 500; 
+}
+/* row 2 cardd1 */
+.cards-row2-col1{
+   
+    position: relative;
+    width: 290px;
+    height: 450px;
+}
+#r2-c1-head{
+    margin-top: 15px;
+    font-family:  "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+}
+#row2-col1-new{
+    width: 45px;
+    height: 30px;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    background-color: #ffb900;
+}
+#row2-col1-new-head{
+    position: relative;
+    top: 5px;
+    left: 6px;
+}
+#r2-c1-desc{
+ font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 25px;
+ 
+}
+#learn-r2-c1{
+    margin-top: 30px;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 16px;
+    font-weight: 500;
+    color: #0067b8;
+}
+#learn-r2-c1:hover{
+    cursor: pointer;
+    color: #0067b8;
+    text-decoration: underline;
+}
+/* row2 card2 */
+.cards-row2-col2{
+   
+    position: relative;
+    left: 310px;
+    bottom: 450px;
+    width: 290px;
+    height: 450px;
+}
+#r2-c2-head{
+    margin-top: 15px;
+    font-family:  "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+#r2-c2-desc{
+ font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 25px;
+ 
+}
+#signup-r2-c2{
+    margin-top: 30px;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 16px;
+    font-weight: 500;
+    color: #0067b8;
+}
+#signup-r2-c2:hover{
+    cursor: pointer;
+    color: #0067b8;
+    text-decoration: underline;
+}
+
+/* row2 card3 */
+.cards-row2-col3{
+   
+    position: relative;
+    left: 620px;
+    bottom: 56.29rem;
+    width: 290px;
+    height: 450px;
+}
+#r2-c3-head{
+    margin-top: 15px;
+    font-family:  "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+#r2-c3-desc{
+ font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 25px;
+ 
+}
+#getit-r2-c3{
+    margin-top: 30px;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 16px;
+    font-weight: 500;
+    color: #0067b8;
+}
+#getit-r2-c3:hover{
+    cursor: pointer;
+    color: #0067b8;
+    text-decoration: underline;
+}
+/* row2 card4 */
+.cards-row2-col4{
+   
+    position: relative;
+    left: 930px;
+    bottom: 84.4rem;
+    width: 290px;
+    height: 450px;
+}
+#r2-c4-head{
+    margin-top: 15px;
+    font-family:  "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+#r2-c4-desc{
+ font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 25px;
+ 
+}
+#learn-r2-c4{
+    margin-top: 30px;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 16px;
+    font-weight: 500;
+    color: #0067b8;
+}
+#learn-r2-c4:hover{
+    cursor: pointer;
+    color: #0067b8;
+    text-decoration: underline;
+}
+.social-icon1{
+    display: flex;
+    margin-left: 75px;
+    position: relative;
+    bottom: 80.9rem;
+  
+}
+#social-head1{
+  font-family:"Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif ;
+    font-weight: 400;
+    font-size:17px ;
+}
+#fb-icn1{
+margin-left: 20px;
+font-size: 29px;
+}
+#tw-icn1{
+    margin-left: 20px;
+    font-size: 29px;
+}
+#yt-icn1{
+    margin-left:20px;
+    font-size: 29px;
+}
+.footer{    
+    background-color: #f2f2f2;
+}
+.footer-tbl1{
+    position: relative;
+    top: 60px;
+    left: 50px;
+    text-align: left;
+    border-collapse: separate;
+    border-spacing: 0 30px;
+    color: #616161;
+    background-color: #f2f2f2;
+}
+td{
+
+   font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 19.5px;
+     
+}
+td:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+#footer-lang{
+    height: 80px;
+    width: 100%;
+    position: relative;
+    top:50px ;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 100;
+    color: #616161;
+}
+#glob-icn{
+font-size: 30px;
+position: relative;
+top: 34px;
+margin-left: 75px;
+}
+#foo-en{
+    margin-left: 118px;
+    position: relative;
+    top: 10px;
+    bottom: 10px;
+
+}
+#foo-cust{
+    margin-left: 43rem;
+    /* margin-top: -11px; */
+}
+#foo-pri{
+    margin-left: 51rem;
+    margin-top: -15px;
+}
+#foo-tu{
+    margin-left:56rem;
+    margin-top: -16px;
+}
+#foo-td{
+    margin-left: 61rem;
+    margin-top: -16px;
+
+}
+#foo-ad{
+margin-left: 66rem;
+margin-top: -16px;
+}
+#foo-cpy{
+margin-left: 72rem;
+margin-top: -15px;
+}
